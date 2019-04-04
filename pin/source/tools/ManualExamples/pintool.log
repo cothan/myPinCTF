@@ -1,0 +1,4 @@
+Pin: pin-3.7-97619-0d0c92f4f
+Copyright (c) 2003-2018, Intel Corporation. All rights reserved.
+A:  Source/pin/elfio/img_elf.cpp: ProcessSectionHeaders: 560: assertion failed: SEC_vaddr_i(sec) >= IMG_seg_text_vaddr_i(img) && SEC_vaddr_i(sec) < IMG_seg_data_vaddr_i(img)
+

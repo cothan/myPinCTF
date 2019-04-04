@@ -1,0 +1,4 @@
+pin:/home/cothan/Software/reverse-exploit/PinCTF/pin
+library:/home/cothan/Software/reverse-exploit/PinCTF/obj-ia32
+count:20
+seed:ABCD

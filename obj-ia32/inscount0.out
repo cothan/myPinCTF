@@ -1,0 +1,35 @@
+A: Source/pin/elfio/img_elf.cpp: ProcessSectionHeaders: 560: assertion failed: SEC_vaddr_i(sec) >= IMG_seg_text_vaddr_i(img) && SEC_vaddr_i(sec) < IMG_seg_data_vaddr_i(img)
+
+################################################################################
+## STACK TRACE
+################################################################################
+??? at inscount0.so+0x28b92 
+
+??? at inscount0.so+0x91356 
+
+??? at inscount0.so+0x99081 
+
+??? at inscount0.so+0x146a3d 
+
+??? at inscount0.so+0x14908d 
+
+??? at inscount0.so+0x149140 
+
+??? at inscount0.so+0x6fd43 
+
+??? at inscount0.so+0x4ce0b 
+
+_ZN14LEVEL_INJECTOR13UNIX_INJECTEE12StartProgramEb+0x10f at /home/cothan/Software/reverse-exploit/PinCTF/pin/ia32/bin/pinbin+0x3354af 
+
+??? at inscount0.so+0x496e9 
+
+main+0xa8 at inscount0.so+0x90d8 
+
+_ZN14LEVEL_INJECTOR13UNIX_INJECTEE9StartToolEv+0x1d2 at /home/cothan/Software/reverse-exploit/PinCTF/pin/ia32/bin/pinbin+0x333f12 
+
+_ZN14LEVEL_INJECTOR13UNIX_INJECTEE29RunMainThreadOnPinStackAttachEPS0_+0x3de at /home/cothan/Software/reverse-exploit/PinCTF/pin/ia32/bin/pinbin+0x3374ee 
+
+Pin: pin-3.7-97619-0d0c92f4f
+Copyright (c) 2003-2018, Intel Corporation. All rights reserved.
+
+Aborted (core dumped)
